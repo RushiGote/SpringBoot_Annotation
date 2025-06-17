@@ -95,4 +95,4 @@ Here is a list of important Spring Boot annotations, each explained in **one lin
 ---
 Thank You........
 
-Let me know if you want **code examples** or a **PDF version** of this list.
+
