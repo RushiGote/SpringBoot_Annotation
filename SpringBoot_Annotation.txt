@@ -1,0 +1,97 @@
+Here is a list of important Spring Boot annotations, each explained in **one line**:
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+* `@SpringBootApplication` – Combines configuration, auto-configuration, and component scan.
+
+* `@ComponentScan` – Scans the package for Spring-managed components.
+
+* `@EnableAutoConfiguration` – Enables Spring Boot’s auto-configuration mechanism.
+
+* `@Configuration` – Marks a class as a source of Spring bean definitions.
+
+* `@Component` – Generic annotation to define a Spring-managed bean.
+
+* `@Service` – Specialization of `@Component` for service layer classes.
+
+* `@Repository` – Indicates DAO component and enables exception translation.
+
+* `@Controller` – Used to define a web controller in Spring MVC.
+
+* `@RestController` – Combines `@Controller` and `@ResponseBody` for REST APIs.
+
+* `@Autowired` – Automatically injects dependencies by type.
+
+* `@Qualifier` – Used with `@Autowired` to resolve dependency conflicts.
+
+* `@Primary` – Marks a bean as the default when multiple candidates exist.
+
+* `@Value` – Injects property values from `application.properties`.
+
+* `@GetMapping`, `@PostMapping`, `@PutMapping`, `@DeleteMapping`, `@PatchMapping` – Map HTTP methods to handler methods.
+
+* `@RequestMapping` – General-purpose annotation to map web requests.
+
+* `@RequestBody` – Binds HTTP request body to a method parameter.
+
+* `@ResponseBody` – Sends return value as HTTP response body.
+
+* `@PathVariable` – Binds a URI variable to a method parameter.
+
+* `@RequestParam` – Binds a query parameter to a method parameter.
+
+* `@RequestHeader` – Binds an HTTP header to a method parameter.
+
+* `@CrossOrigin` – Enables CORS for the specified controller or method.
+
+* `@Entity` – Marks a class as a JPA entity.
+
+* `@Table` – Specifies the database table name.
+
+* `@Id` – Defines the primary key of an entity.
+
+* `@GeneratedValue` – Configures how the primary key is generated.
+
+* `@Column` – Maps a field to a specific database column.
+
+* `@OneToOne`, `@OneToMany`, `@ManyToOne`, `@ManyToMany` – Define JPA relationships.
+
+* `@JoinColumn` – Defines foreign key column for relationships.
+
+* `@Query` – Defines a custom JPQL/SQL query in a repository.
+
+* `@Modifying` – Indicates a modifying query (insert/update/delete).
+
+* `@Transactional` – Marks a method/class to run within a transaction.
+
+* `@Valid` – Triggers validation on method arguments.
+
+* `@NotNull`, `@NotBlank`, `@Size`, `@Min`, `@Max`, `@Email`, `@Pattern` – Field-level validation annotations.
+
+* `@SpringBootTest` – Loads full application context for testing.
+
+* `@WebMvcTest` – Loads only MVC components for testing controllers.
+
+* `@DataJpaTest` – Loads only JPA components for testing repositories.
+
+* `@MockBean` – Adds mock objects to the Spring context.
+
+* `@BeforeEach`, `@AfterEach` – JUnit lifecycle methods for setup/teardown.
+
+* `@Scheduled` – Schedules a method to run at fixed intervals.
+
+* `@EnableScheduling` – Enables Spring’s scheduling support.
+
+* `@EnableCaching` – Enables caching in the Spring context.
+
+* `@Cacheable`, `@CachePut`, `@CacheEvict` – Annotations for managing cache behavior.
+
+* `@EnableConfigurationProperties` – Enables support for `@ConfigurationProperties` classes.
+
+* `@ConfigurationProperties` – Binds external configuration to a Java class.
+
+* `@Profile` – Activates beans only when a specific profile is active.
+
+---
+
+Let me know if you want **code examples** or a **PDF version** of this list.
